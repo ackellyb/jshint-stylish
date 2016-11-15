@@ -1,13 +1,13 @@
 {
-  "name": "jshint-stylish",
-  "version": "2.2.1",
-  "description": "Stylish reporter for JSHint",
+  "name": "jshint-stylish-file",
+  "version": "1.0.0",
+  "description": "Stylish reporter for JSHint, with file output",
   "license": "MIT",
-  "repository": "sindresorhus/jshint-stylish",
+  "repository": "ackellyb/jshint-stylish-file",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Aaron Kelly-Barker",
+    "email": "aaron.kelly.barker@gmail.com",
+    "url": "https://github.com/ackellyb"
   },
   "engines": {
     "node": ">=0.10.0"
