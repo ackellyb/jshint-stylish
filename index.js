@@ -35,14 +35,14 @@ module.exports = {
 
 			var nonFormattedLine = [
 				'',
-				'  line '+err.line,
-				'col '+err.character,
+				'  line ' + err.line,
+				'col ' + err.character,
 				isError ? err.reason : err.reason
 			];
 
 			if (el.file !== prevfile) {
 				headers[i] = el.file;
-				nonFormattedLines.push('\n'+headers[i]);
+				nonFormattedLines.push('\n' + headers[i]);
 			}
 
 			if (options.verbose) {
@@ -69,7 +69,7 @@ module.exports = {
 		if (total > 0) {
 			if (errorCount > 0) {
 				ret += '  ' + logSymbols.error + '  ' + errorCount + ' ' + plur('error', errorCount) + (warningCount > 0 ? '\n' : '');
-				nonFormattedLines.push('   '+ errorCount + ' ' + plur('error', errorCount));
+				nonFormattedLines.push('   ' + errorCount + ' ' + plur('error', errorCount));
 			}
 
 			ret += '  ' + logSymbols.warning + '  ' + warningCount + ' ' + plur('warning', total);
@@ -88,7 +88,7 @@ module.exports = {
 		console.log(ret);
 		if (options.output) {
 			var fs = require('fs');
-			fs.appendFile(options.output, nonFormattedLines.join('\n'), function(err) {
+			fs.appendFile(options.output, nonFormattedLines.join('\n'), function (err) {
 				if (err) {
 					return console.log(err);
 				}
