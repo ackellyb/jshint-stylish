@@ -1,4 +1,4 @@
-# jshint-stylish-file [![Build Status](https://travis-ci.org/ackellyb/jshint-stylish-file.svg?branch=master)](https://travis-ci.org/sindresorhus/jshint-stylish)
+# jshint-stylish-file [![Build Status](https://travis-ci.org/ackellyb/jshint-stylish-file.svg?branch=master)](https://travis-ci.org/sindresorhus/jshint-stylish) [![npm version](https://badge.fury.io/js/jshint-stylish-file.svg)](https://badge.fury.io/js/jshint-stylish-file)
 
 > Stylish reporter for [JSHint](https://github.com/jshint/jshint)
 
